@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.right-image {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.left-container {
+    height: 100%;
+    width: 58%;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 150px;
+    opacity: 0.9;
+}
+
+.heading,
+.second-heading,
+.about > h3,
+.contact h3,
+.social h3 {
+    font-family: "Voyage";
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.brown {
+    color: #b25e3c;
+    font-weight: 900;
+}
+
+.content,
+.second-content,
+.about p,
+.contact p,
+.social p {
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 300;
+    color: #594538;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.know-btn,
+.sec-btn {
+    padding: 20px;
+    font-size: 18px;
+    font-family: "montserrat";
+    font-weight: 900;
+    background-color: #b25e3c;
+    color: white;
+    border: none;
+    transition: 0.25s;
+}
+
+.know-btn:hover {
+    background-color: transparent;
+    color: #b25e3c;
+    border: 2px solid #b25e3c;
+    box-shadow: 5px 5px 10px #b25d3c8c;
+}
+
+.sec-btn:hover {
+    background-color: transparent;
+    color: #389e3c;
+    border: 2px solid #389e3c;
+    box-shadow: 5px 5px 10px #389e3b7c;
+}
+
+.second-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.second-img {
+    position: absolute;
+    height: 50%;
+    top: 10%;
+    left: 10%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.425);
+}
+
+.second-right {
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.second-heading {
+    font-size: 45px;
+}
+
+.green {
+    color: #389e3c;
+    font-weight: 900;
+}
+
+.sec-btn {
+    background-color: #389e3c;
+}
+
+footer {
+    width: 100%;
+    height: 35%;
+    background-color: #674747;
+    position: absolute;
+    bottom: 0;
+}
+
+.about,
+.contact,
+.social {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: white;
+    text-align: center;
+}
+
+.contact {
+    left: 40%;
+}
+
+.social {
+    left: 70%;
+}
+
+.about h3,
+.contact h3,
+.social h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about p,
+.contact p,
+.social p {
+    color: white;
+}
+
+.social img {
+    height: 70px;
+    transition: 0.25s;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b25e3c;
+}
